@@ -16,6 +16,7 @@
     "@types/react-dom": "^17.0.0",
     "apollo": "^2.32.1",
     "autoprefixer": "^10.2.4",
+    "cypress": "^6.4.0",
     "graphql": "^15.5.0",
     "postcss": "^8.2.5",
     "react": "^17.0.1",
@@ -27,6 +28,7 @@
     "rimraf": "^3.0.2",
     "tailwindcss": "^2.0.3",
     "typescript": "^4.1.2",
+    "victory": "^35.4.9",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -57,7 +59,9 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.1.7"
+    "@testing-library/cypress": "^7.0.3",
+    "@types/react-router-dom": "^5.1.7",
+    "mock-apollo-client": "^1.0.0"
   },
   "jest": {
     "collectCoverageFrom": [
